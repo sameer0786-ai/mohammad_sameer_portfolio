@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohammad Sameer — BTech student portfolio showcasing skills, projects, and education." />
+  <title>Mohammad Sameer | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">MS<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> BTech Student · Aspiring Developer</p>
+        <h1>Hi, I'm <span class="gradient-text">Mohammad Sameer</span></h1>
+        <h2>I build things for the <span id="typedText">web</span><span class="cursor">|</span></h2>
+        <p class="hero-description">A curious engineering student exploring web development, programming, and electronics—one project at a time.</p>
+        
+        <div class="hero-actions">
+        
+          <!-- Contact Me Button -->
+          <a href="#contact" class="btn btn-primary">
+            Contact Me
+          </a>
+        
+          <!-- Download Resume Button -->
+          <a
+            href="assets/Mohammad-Sameer-Resume.pdf"
+            class="btn btn-resume"
+            download="Mohammad-Sameer-Resume.pdf"
+          >
+            Download Resume ↓
+          </a>
+        
+        </div>
+
+        <div class="social-row">
+          <a
+            href="https://github.com/sameer0786-ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile"
+          >
+            GitHub ↗
+          </a>
+        
+          <a
+            href="https://www.linkedin.com/in/mohammad-sameer-dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative code card">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>sameer.js</small></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Mohammad Sameer"</span>,
+  role: <span class="code-green">"BTech Student"</span>,
+  interests: [
+    <span class="code-green">"Web Development"</span>,
+    <span class="code-green">"Electronics"</span>,
+    <span class="code-green">"Problem Solving"</span>
+  ],
+  learning: <span class="code-green">"Every day"</span>
+};
+
+<span class="code-blue">console</span>.log(<span class="code-green">"Let's build!"</span>);</code></pre>
+        </div>
+        <div class="floating-chip chip-top">✦ Curious mind</div>
+        <div class="floating-chip chip-bottom"><span class="status-dot"></span> Always learning</div>
+      </div>
+      <a class="scroll-cue" href="#about">Scroll to explore <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>A little <span class="gradient-text">about me</span></h2></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">I'm Mohammad Sameer, a BTech student with a passion for technology and building useful things.</p>
+          <p>I'm developing my skills in programming, web development, and electronics. I enjoy learning by doing—turning concepts from class into hands-on projects and improving with every experiment.</p>
+          <p>My goal is to keep growing as a developer, collaborate with others, and create projects that solve real problems.</p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card"><strong>01</strong><span>Keep learning</span><small>Curiosity first</small></div>
+          <div class="stat-card"><strong>02</strong><span>Build projects</span><small>Learn by doing</small></div>
+          <div class="stat-card"><strong>03</strong><span>Grow together</span><small>Share and collaborate</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / SKILLS</p><h2>Tools I'm <span class="gradient-text">exploring</span></h2><p class="section-subtitle">A growing toolkit. I'll keep adding skills as I learn and practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Programming</h3><p>Core concepts, logic, and problem solving.</p><div class="tag-list"><span>C / C++</span><span>JavaScript</span><span>Python</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">⌁</div><h3>Web Development</h3><p>Building responsive interfaces for the web.</p><div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">ϟ</div><h3>Electronics</h3><p>Learning circuits through practical experiments.</p><div class="tag-list"><span>Breadboarding</span><span>Basic circuits</span><span>NE555</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">▧</div><h3>Tools</h3><p>Tools I use to learn, build, and organize.</p><div class="tag-list"><span>VS Code</span><span>Git</span><span>GitHub</span></div></article>
+      </div>
+      <p class="note">Tip: Remove any skill you haven't learned yet, and add your actual proficiency as you gain experience.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow">03 / PROJECTS</p><h2>Things I've <span class="gradient-text">worked on</span></h2><p class="section-subtitle">A few projects to showcase learning, experimentation, and problem solving.</p></div>
+      <div class="projects-grid">
+        
+        <article class="project-card reveal">
+        
+          <div class="project-visual visual-purple">
+            <span class="visual-symbol">▤</span>
+            <span class="visual-label">LIBRARY · MANAGEMENT</span>
+          </div>
+        
+          <div class="project-content">
+          
+            <div class="project-meta">
+              <span>BTech Project</span>
+              <span>01</span>
+            </div>
+          
+            <h3>Library Management System</h3>
+          
+            <p>
+              Developed a web-based Library Management System using
+              Python, Flask, and PostgreSQL to simplify library operations
+              and book management. The application provides an intuitive
+              interface for managing book records and database operations.
+            </p>
+          
+            <div class="tag-list">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>PostgreSQL</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Git</span>
+              <span>GitHub</span>
+            </div>
+          
+            <div class="project-links">
+            
+              <a
+                href="https://github.com/sameer0786-ai/Library-Management-System"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View project repository"
+              >
+                Source code ↗
+              </a>
+            
+            </div>
+          
+          </div>
+        
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-blue"><span class="visual-symbol">⌁</span><span class="visual-label">WEB · FRONTEND</span></div>
+          <div class="project-content"><div class="project-meta"><span>Practice Project</span><span>02</span></div><h3>Personal Portfolio</h3><p>A responsive portfolio website built to present my background, skills, projects, and ways to connect.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#" title="Replace with project repository">Source code ↗</a><a href="#home">Live preview ↗</a></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-green"><span class="visual-symbol">ϟ</span><span class="visual-label">ELECTRONICS · DIY</span></div>
+          <div class="project-content"><div class="project-meta"><span>Hands-on Learning</span><span>03</span></div><h3>LED & 555 Timer Experiments</h3><p>Exploring basic electronic circuits, LED control, and timer-based blinking on a breadboard.</p><div class="tag-list"><span>NE555</span><span>LED</span><span>Breadboard</span></div><div class="project-links"><a href="#" title="Replace with project notes">Project notes ↗</a></div></div>
+        </article>
+      </div>
+      <p class="note">These project descriptions are starter examples. Update them to match what you have actually built, and replace the # links with working URLs.</p>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading reveal"><p class="eyebrow">04 / EDUCATION</p><h2>My learning <span class="gradient-text">journey</span></h2></div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+                
+          <div class="timeline-content">
+            <span class="timeline-date">2025 – 2029</span>
+          
+            <h3>B.Tech in Computer Science and Engineering</h3>
+          
+            <p class="timeline-place">SR University</p>
+          
+            <p>
+              Currently pursuing my B.Tech in CSE, building a strong foundation
+              in programming, software development, and practical project work.
+            </p>
+          </div>
+</div>
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-date">Completed</span><h3>Intermediate / 12th Standard</h3><p class="timeline-place">TGMR&JC RJNR BOYS-1</p><p>Completed higher secondary education. MPC [2023-2025].</p></div></div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="section-heading reveal"><p class="eyebrow">05 / CONTACT</p><h2>Let's make something <span class="gradient-text">great</span></h2><p class="section-subtitle">Have a project idea, an opportunity, or just want to connect? Send me a message.</p></div>
+      <div class="contact-grid">
+        <div class="contact-info reveal"><h3>Get in touch</h3><p>I'm open to learning opportunities, collaborations, and conversations about technology.</p>
+      <a
+        class="contact-link"
+        href="https://www.linkedin.com/in/mohammad-sameer-dev/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ↗ <span>LinkedIn profile</span>
+      </a>
+      
+      <a
+        class="contact-link"
+        href="https://github.com/sameer0786-ai"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ⌘ <span>GitHub profile</span>
+      </a>
+</div>
+        <form class="contact-form reveal" id="contactForm">
+          <label for="visitorName">Your name</label><input id="visitorName" name="name" placeholder="Name" required />
+          <label for="visitorEmail">Your email</label><input id="visitorEmail" name="email" type="email" placeholder="you@example.com" required />
+          <label for="visitorMessage">Message</label><textarea id="visitorMessage" name="message" rows="5" placeholder="Tell me what you have in mind..." required></textarea>
+          <button class="button button-primary" type="submit">Prepare email <span>↗</span></button>
+          <p class="form-hint" id="formHint">Your message will open in your email app, ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">MS<span>.</span></a><p>Designed & built by Mohammad Sameer</p><a href="#home">Back to top ↑</a><small>© <span id="year"></span> Mohammad Sameer. All rights reserved.</small></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
